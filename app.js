@@ -28,3 +28,5 @@ app.use("/api/messages", messageRoute);
 app.listen(8000, () => {
   console.log(`server is running `);
 });
+
+export default app;
